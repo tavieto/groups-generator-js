@@ -1,6 +1,15 @@
+const express = require('express')
+const app = express()
+
+app.get('/generate-groups', (req, res) => {
+    res.send(getValue())
+})
+
+app.listen(3000)
+
 function getValue() {
-    let all_groups = document.getElementById('txt-grp').value
-    let all_students = document.getElementById('txt-std').value
+    let all_groups = 4      // document.getElementById('txt-grp').value
+    let all_students = 20   // document.getElementById('txt-std').value
 
     let resultado = {
         total_alunos: all_students,
@@ -12,7 +21,7 @@ function getValue() {
 
     let random_numbers = embaralhar(all_students)
 
-    console.log(division(all_groups, students_per_group, random_numbers, resultado))
+    return JSON.stringify(division(all_groups, students_per_group, random_numbers, resultado))
 }
 
 function separetedPerGroup(all_students, all_groups) {
@@ -84,7 +93,7 @@ function division(allGroups, studentsPerGroup, randomNumbers, resultado) {
     while(counterGroups < allGroups) {
 
         let objeto_de_grupo = {
-            index: counterGroups,
+            id: counterGroups,
             num_alunos: studentsPerGroup[counterGroups],
             num_sorteado: []
         }
