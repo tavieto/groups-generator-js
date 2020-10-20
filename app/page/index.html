@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/page-main.css">
+    <link rel="stylesheet" href="../styles/aside-bar.css">
+
+    <title>Gereciador de conjuntos</title>
+</head>
+<body>
+    <div id="tela-transparente"></div>
+
+    <header id="barra-superior">
+            
+            <a href="#"><div id="link-profile" onclick="barraLateral()"><img src="../images/icon-menu.svg" alt="Menu"></div></a>
+
+            <div class="titulo-organizacao">EE Colégio Estadual Félix Mendonça</div>
+
+            <div id="profile-img">
+                <a></a>
+            </div>
+
+    </header>
+
+    <aside>
+        <div id="barra-lateral-topo">
+            <div id="inicio-content">
+                <div id="inicio">
+                    <div id="logo-inicio">
+                        <img src="../images/icon-casa.svg" alt="Casa">
+                    </div>
+                    <div id="titulo-inicio">Início</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    
+    <div id="opcoes">
+        <div id="opcoes-content">
+
+            <div id="ordenar">
+                <div class="titulo-opcoes">Ordenar: </div>
+                <div class="filtro-opcoes">ABC</div>
+            </div>
+
+            <div id="content-filtro">
+                <div id="titulo-filtro">Filtros</div>
+                <div id="filtros" name="filtros">
+                    <div class="titulo-opcoes">Matérias</div>
+                    <div class="filtro-opcoes">Todas</div>
+
+                    <div class="titulo-opcoes">Sala</div>
+                    <div class="filtro-opcoes">Todas</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="conjuntos">
+            <div id="conjunto-1" class="conjunto">
+                <div class="conjunto-img">
+                    <img src="" alt="">
+                    <a href="#"><img src="../images/seta-opcoes.svg" alt="Opções" class="opt"></a>
+                </div>
+
+                <div class="conjunto-corpo">
+                    <div class="conjunto-corpo-header">
+                        <div class="titulo">Governos populistas</div>
+                        <div class="subtitulo">6 grupos</div>
+                    </div>
+
+                    <div class="conjunto-corpo-rodape">
+                        <div class="prof-mat">Rafael Monteiro - História</div>
+                        <div class="turno-sala">Matutino - Sala 3</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="conjunto-2" class="conjunto">
+                <div class="conjunto-img">
+                    <img src="" alt="">
+                    <a href="#"><img src="../images/seta-opcoes.svg" alt="Opções" class="opt"></a>
+                </div>
+
+                <div class="conjunto-corpo">
+                    <div class="conjunto-corpo-header">
+                        <div class="titulo">Reino monera</div>
+                        <div class="subtitulo">8 grupos</div>
+                    </div>
+
+                    <div class="conjunto-corpo-rodape">
+                        <div class="prof-mat">Ângela Silva - Biologia</div>
+                        <div class="turno-sala">Matutino - Sala 8</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="conjunto-3" class="conjunto">
+                <div class="conjunto-img">
+                    <img src="" alt="">
+                    <a href="#"><img src="../images/seta-opcoes.svg" alt="Opções" class="opt"></a>
+                </div>
+
+                <div class="conjunto-corpo">
+                    <div class="conjunto-corpo-header">
+                        <div class="titulo">Eletrostática</div>
+                        <div class="subtitulo">5 grupos</div>
+                    </div>
+
+                    <div class="conjunto-corpo-rodape">
+                        <div class="prof-mat">Itamar Amaral - Física</div>
+                        <div class="turno-sala">Vespertino - Sala 10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="botao-novo-conjunto">
+        <a href="#">
+            <img src="../images/icone-mais.svg" alt="">
+        </a>
+    </div>
+
+<script src="../scripts/barra-lateral.js"></script>
+</body>
+</html>
