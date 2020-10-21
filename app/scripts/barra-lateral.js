@@ -1,12 +1,9 @@
-function barraLateral() {
-    let tela_transparente = document.querySelector('#tela-transparente')
-    tela_transparente.setAttribute('visibility', 'visible')
-    tela_transparente.setAttribute('z-index', '10')
+function abreNav() {
+    //let tela_transparente = document.querySelector('#tela-transparente')
+    //tela_transparente.setAttribute('visibility', 'visible')
+    document.querySelector('aside').style.width = "100%";
+}
 
-    let barra_lateral = document.querySelector('aside')
-    barra_lateral.setAttribute('visibility', 'visible')
-    barra_lateral.setAttribute('z-index', '9')
-
-    console.log(tela_transparente)
-    console.log(barra_lateral)
+function fechaNav() {
+    document.querySelector('aside').style.width = "0";
 }
