@@ -1,9 +1,11 @@
 function abreNav() {
-    //let tela_transparente = document.querySelector('#tela-transparente')
-    //tela_transparente.setAttribute('visibility', 'visible')
-    document.querySelector('aside').style.width = "100%";
+    document.querySelector('aside').style.width = "350px";
+    document.querySelector('#tela-transparente').style.width = "100vw"
+    document.querySelector('#tela-transparente').style.height = "100vh"
 }
 
 function fechaNav() {
-    document.querySelector('aside').style.width = "0";
+    document.querySelector('aside').style.width = "0"
+    document.querySelector('#tela-transparente').style.width = "0"
+    document.querySelector('#tela-transparente').style.height = "0"
 }

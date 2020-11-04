@@ -125,33 +125,7 @@
 
     margin-right: 10px;
     margin-left: 10px;
-}
-
-#conjunto-1 .conjunto-img {
-    background-color: #C8E6C9;
-}
-
-#conjunto-1 .conjunto-corpo {
-    background-color: #A5D6A7;
-    color: #585858
-}
-
-#conjunto-2 .conjunto-img {
-    background-color: #D7CCC8;
-}
-
-#conjunto-2 .conjunto-corpo {
-    background-color: #A1887F;
-    color: var(--color-text)
-}
-
-#conjunto-3 .conjunto-img {
-    background-color: #EF9A9A;
-}
-
-#conjunto-3 .conjunto-corpo {
-    background-color: #E57373;
-    color: var(--color-text)
+    margin-bottom: 20px;
 }
 
 .conjunto .conjunto-img {
