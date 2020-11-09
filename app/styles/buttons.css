@@ -1,0 +1,86 @@
+.botoes-bottom {
+    position: absolute;
+
+    bottom: 40px;
+    right: 40px;
+}
+
+#botao-opcoes {
+    display: flex;
+    flex-direction: column-reverse;
+
+    bottom: 10px;
+}
+
+.botao-novo-conjunto,
+.adc-list {
+    /*position: absolute;*/
+    background-color: var(--primary-color);
+    width: 75px;
+    height: 75px;
+
+    border-radius: 50px;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    bottom: 50px;
+    right: 50px;
+}
+
+.botao-novo-conjunto img {
+    width: 40px;
+    height: 40px;
+}
+
+.adc-list img {
+    width: 30px;
+    height: 30px;
+}
+
+.adc-list {
+    width: 60px;
+    height: 60px;
+
+    margin-right: 6.5px;
+}
+
+.opcoes-list,
+.opcoes-list-grupo,
+.opcoes-list-lista
+ {
+    display: flex;
+    flex-direction: row-reverse;
+
+    align-items: center;
+
+    margin-top: 5px;
+}
+
+.text-opt-btn {
+    display: flex;
+
+    background-color: #7B7B7B;
+
+    height: 40px;
+    width: 200px;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+
+    margin-right: 30px;
+
+}
+
+.opcoes-list a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.opcoes-list-grupo .text-opt-btn {
+    height: 60px;
+}
