@@ -60,10 +60,6 @@ aside #barra-lateral #barra-lateral-topo #inicio {
     position: absolute;
 }
 
-/*aside #barra-lateral #barra-lateral-topo #inicio #logo-inicio{
-
-}*/
-
 aside #barra-lateral #barra-lateral-topo #inicio #titulo-inicio{
     color: var(--color-text);
     font-size: 40px;
@@ -89,5 +85,5 @@ aside #barra-lateral #barra-lateral-corpo {
 
     z-index: 5;
 
-
+    transition: background-color 0.2s;
 }
