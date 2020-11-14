@@ -3,14 +3,15 @@ a {
     color: black;
 }
 
-#conteiner {
+.conteiner {
     display: flex;
 
     flex-direction: column;
 
-    position: relative;
+    position: absolute;
 
-    margin: auto;
+    left: 780px;
+    bottom: 300px;
 
     width: 316px;
     height: 376px;
@@ -23,7 +24,7 @@ a {
     transition: visibility 0s, opacity 0.2s;
 }
 
-#conteiner #header {
+.conteiner .header {
     width: 100%;
     height: 50px;
 
@@ -36,12 +37,12 @@ a {
     align-items: center;
 }
 
-#conteiner #header #title {
+.conteiner .header .title {
     color: white;
     font-size: 15.5px
 }
 
-#conteiner #body {
+.conteiner .body {
     width: 100%;
     height: 330px;
 
@@ -59,7 +60,7 @@ a {
     box-sizing: border-box;
 }
 
-#conteiner #body #content {
+.conteiner .body .content {
     height: 100%;
     width: 75%;
 
@@ -68,13 +69,13 @@ a {
     position: relative;
 }
 
-#conteiner #body #selecionar-lista {
+#criar-conjunto .body #selecionar-lista {
     width: 85%;
     
     margin-top: 10px;
 }
 
-#conteiner #body #selecionar-lista #campo-slc-lista {
+#criar-conjunto .body #selecionar-lista #campo-slc-lista {
     background-color: #ECEBEB;
     border-radius: 6px;
 
@@ -84,21 +85,21 @@ a {
     position: relative;
 }
 
-#conteiner #body #selecionar-lista #campo-slc-lista img {
+#criar-conjunto .body #selecionar-lista #campo-slc-lista img {
     position: absolute;
 
     right: 7px;
     top: 5px;
 }
 
-#conteiner #body #selecionar-lista #campo-slc-lista #titulo-lista {
+#criar-conjunto .body #selecionar-lista #campo-slc-lista #titulo-lista {
     position: absolute;
 
     left: 12px;
     bottom: 9px;
 }
 
-#conteiner #body #divs-data {
+#criar-conjunto .body #divs-data {
     display: flex;
     flex-direction: row;
 
@@ -108,8 +109,8 @@ a {
     width: 100%
 }
 
-#conteiner #body #divs-data #div-groups input,
-#conteiner #body #divs-data #div-students input
+#criar-conjunto .body #divs-data #div-groups input,
+#criar-conjunto .body #divs-data #div-students input
 {
     width: 70%;
     height: 40px;
@@ -124,12 +125,12 @@ a {
     background-color: #ECEBEB;
 }
 
-#conteiner #body .label {
+#criar-conjunto .body .label {
     font-size: 12px;
     margin: 5px 0; 
 }
 
-#conteiner #div-color a {
+#criar-conjunto #div-color a {
     width: 100%;
 
     display: flex;
@@ -140,7 +141,7 @@ a {
     margin-top: 20px;
 }
 
-#conteiner #div-color #color {
+#criar-conjunto #div-color #color {
     width: 30px;
     height: 30px;
 
@@ -151,7 +152,7 @@ a {
     margin-right: 10px ;
 }
 
-#conteiner #btn-content {
+#criar-conjunto #btn-content {
     width: 100%;
     height: 100px;
     
@@ -162,7 +163,7 @@ a {
     
 }
 
-#conteiner #btn-content a {
+#criar-conjunto #btn-content a {
     position: absolute;
 
     bottom: 25px;
@@ -171,7 +172,7 @@ a {
     height: 35px;
 }
 
-#conteiner #btn-content #btn-create {
+#criar-conjunto #btn-content #btn-create {
     width: 120px;
     height: 35px;
 
